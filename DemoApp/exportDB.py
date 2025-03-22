@@ -14,5 +14,5 @@ def export_json(collection_name, file_name):
     print(f"Data koleksi {collection_name} diekspor ke {file_name}")
 
 # Ekspor dua collection
-export_json("badwords", "badwords.json")
-export_json("messages", "messages.json")
+export_json("badwords", "database/badwords.json")
+export_json("messages", "database/messages.json")

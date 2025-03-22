@@ -17,5 +17,5 @@ def import_json(file_path, collection_name):
     print(f"Data dari {file_path} berhasil dimasukkan ke koleksi {collection_name}")
 
 # Impor dua collection
-import_json("badwords.json", "badwords")
-import_json("messages.json", "messages")
+import_json("database/badwords.json", "badwords")
+import_json("database/messages.json", "messages")
